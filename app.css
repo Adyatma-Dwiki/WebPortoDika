@@ -22,8 +22,18 @@ body {
     text-decoration: underline;
     transition: all 0.3s ease;
 }
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    background-color: #E0CCBE;
+    
+    transition: var(--bs-navbar-toggler-transition);
+}
 
-
+.navbar-toggler:hover{
+    background-color: #D3BBAB;
+}
 
 #navbar .navbar-brand{
     color: #E0CCBE;
